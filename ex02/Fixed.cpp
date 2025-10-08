@@ -71,7 +71,7 @@ bool Fixed::operator!=(Fixed const& other) const {
 
 Fixed Fixed::operator+(Fixed const& other) const {
 	Fixed r;
-	r._raw = _raw - other._raw;
+	r._raw = _raw + other._raw;
 	return r;
 }
 
